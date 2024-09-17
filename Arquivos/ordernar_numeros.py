@@ -9,10 +9,11 @@ def bubble_sort(valores):
     return valores
 
 def ordenar_numeros(n):
-    numeros = [random.randint(1, 100) for _ in range(n)]
+    numeros = [random.randint(1, num_solicitado) for _ in range(n)]
     print(f"Números gerados: {numeros}")
     numeros_ordenados = bubble_sort(numeros)
     print(f"Números ordenados: {numeros_ordenados}")
 
-
-ordenar_numeros(50)
+print("Este sistema gerará numeros aleatórios para ordená-los, posteriormente usando Bubble Sort")
+num_solicitado = int(input("Insira um número para gerar valores aleatórios até ele: "))
+ordenar_numeros(num_solicitado)
