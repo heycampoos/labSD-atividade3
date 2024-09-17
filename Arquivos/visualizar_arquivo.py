@@ -15,5 +15,5 @@ def visualizar_arquivo(filepath):
     else:
         print("Arquivo não encontrado.")
 
-# Exemplo de uso:
-# visualizar_arquivo('imagem.png')
+nome_arquivo = input("Insira o nome do seu arquivo: ")
+visualizar_arquivo(nome_arquivo)

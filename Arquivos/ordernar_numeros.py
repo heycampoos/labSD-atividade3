@@ -14,5 +14,5 @@ def ordenar_numeros(n):
     numeros_ordenados = bubble_sort(numeros)
     print(f"Números ordenados: {numeros_ordenados}")
 
-# Exemplo de uso:
-# ordenar_numeros(50)
+
+ordenar_numeros(50)

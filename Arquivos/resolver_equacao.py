@@ -12,5 +12,7 @@ def resolver_equacao_segundo_grau(a, b, c):
         x2 = (-b - math.sqrt(delta)) / (2*a)
         print(f"As raízes da equação são: {x1} e {x2}")
 
-# Exemplo de uso:
-#resolver_equacao_segundo_grau(1, -3, 2)  # Exemplo: x² - 3x + 2 = 0
+x1 = int(input("Insira A: "))
+x2 = int(input("Insira B: "))
+x3 = int(input("Insira C: "))
+resolver_equacao_segundo_grau(x1, x2, x3) 
